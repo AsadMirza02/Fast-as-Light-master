@@ -11,7 +11,7 @@ import android.graphics.Rect;
 public class Bullet {
     int x, y, width, height;
     Boolean shot = false, shotByPlayer;
-    Bitmap bullet;
+    Bitmap bullet; 
 
     Bullet (int x, int y, int shooter_width, Boolean shotByPlayer, Resources res)
     {
